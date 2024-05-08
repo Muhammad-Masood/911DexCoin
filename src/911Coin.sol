@@ -3,7 +3,6 @@ pragma solidity ^0.8.24;
 
 import {ERC20} from "@openzeppelin/token/ERC20/ERC20.sol";
 import {Ownable} from "@openzeppelin/access/Ownable.sol";
-
 contract NineEleven is ERC20, Ownable(msg.sender) {
 
     uint8 private dailyBurnPercent = 2; // 2%
