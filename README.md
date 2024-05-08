@@ -1,66 +1,24 @@
-## Foundry
+Name: 911Coin (Symbol 911Coin).
+Image: You already have the image.
+Total Supply: 991,991,991,991
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Function:
 
-Foundry consists of:
+No reflection given.
+- 2% Auto burn every 24hours (from lauch time).
+- 5% Auto burn every 30 days (from lauch date).
+- 30% Auto burn every 12 months (from lauch date).
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+Buy: 5 % fee (3% to marketing wallet, 2% burnt)
+Sell: 10% fee (5% to marketing wallet, 5% burnt)
 
-## Documentation
+1. The auto burn will stop in 5 years.
+2. The sale/buy tax will stop in 5 years.
 
-https://book.getfoundry.sh/
+I plan to launch it on Pinksale.finance
 
-## Usage
+After the coin is launch on PankcakSwap, and it is a succesful launch, I will annouce the launch of the 911DexTool.com.
 
-### Build
+1. I was planning to only keep 20% of the total coins for DEX listings.
+2. I was planning to sell 80% on Pinksale.finance. (whatever coins not sold will be burnt).
 
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
